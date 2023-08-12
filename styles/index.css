@@ -1,0 +1,114 @@
+#logo{
+    width: 19px;
+    height: 19px;
+    flex-shrink: 0;
+    fill: var(--paragraph, #666);
+}
+#a-1{
+    color: var(--primary-b, #222);
+    font-family: Volkhov;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 100% */
+    letter-spacing: 0.144px;
+}
+
+#a-2{
+    color: #222;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px; /* 150% */
+}
+
+#btn-1{
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    background: #FA7436;
+    box-shadow: 0px 8px 16px 0px rgba(250, 116, 54, 0.24);
+
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+#btn-2{
+    display: inline-flex;
+    padding: 14px 28px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid var(--primary-o, #FA7436);
+    background: #FFF;
+
+    color: var(--primary-o, #FA7436);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; /* 177.778% */
+}
+
+#p-1{
+    color: #222;
+    font-family: Volkhov;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 109.375% */ 
+
+}
+
+#p-2{
+    color: var(--paragraph, black);
+    /* Paragraph-20px */
+    font-family: Poppins;
+    padding: 5% 0;
+    width: 497px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+}
+
+.orange-text {
+    color: #FA7436;
+}
+
+#col-1{
+    width: 1920px;
+    height: 999px;
+    flex-shrink: 0;
+}
+
+#img-1{
+    position: fixed;
+    left: 95vh;
+    top: 100px;
+    opacity: 0.3;
+}
+
+#img-2{
+    position: fixed;
+    top: 15vh;
+}
+
+#circulo{
+    position: fixed;
+    left: 100vh;
+    top: 400px;
+    
+    width: 500px;
+      height: 250px;
+      border: 1px solid #000;
+      background-size: cover;
+      background-color: #3498db;
+      border-radius: 0 0 250px 250px;
+}
