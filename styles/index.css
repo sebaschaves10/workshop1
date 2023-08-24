@@ -33,15 +33,14 @@
 
 #a-3{
     color: var(--paragraph, #666);
-     font-family: Poppins;
+    font-family: Poppins;
     font-size: 12px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: normal;
 }
 
 #a-4{
-    
     font-family: Poppins;
     font-size: 24px;
     font-weight: 700;
@@ -61,6 +60,26 @@
     height: 52px;
     top: 1511px;
     left: 414px;
+}
+
+#a-6{
+    width: 244px;
+    color: var(--primary-b, #222);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 144.444% */
+}
+
+#title{
+    width: 675px;
+    color: var(--primary-b, #222);
+    font-family: Volkhov;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px; /* 112.5% */
 }
 
 #btn-1{
@@ -103,10 +122,38 @@
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-
     border-radius: 5px;
     background: var(--primary-o, #FA7436);
     box-shadow: 0px 8px 16px 0px rgba(250, 116, 54, 0.16);
+}
+
+#btn-card{
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFE7DB;
+
+    color: var(--primary-o, #FA7436);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}
+
+#btn-susc{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: inline-flex;
+    padding: 13px 26px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--primary-o, #FA7436);
 }
 
 #p-1{
@@ -140,7 +187,7 @@
     font-weight: 700;
     line-height: 54px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
 }
 
 #p-4{
@@ -155,6 +202,121 @@
     line-height: 32px;
     letter-spacing: 0em;
     text-align: center;
+    margin: auto;
+}
+
+#p-5{
+    width: 433px;
+    color: var(--paragraph, #666);
+    text-align: center;
+    margin: auto;
+
+    /* Paragraph-18px */
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+}
+
+#p-6{
+    color: var(--primary-b, #222);
+    font-family: Volkhov;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px; /* 112.5% */
+    }
+
+#p-card{
+    color: var(--paragraph, #666);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+}
+
+#p-card2{
+    
+    color: var(--primary-o, #FA7436);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+}
+
+#p-card3{
+    width: 402px;
+    color: var(--color-b-1, #444);
+    /* Content-16x */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 200% */
+}
+
+#p-card4{
+    width: 402px;
+    color: var(--primary-b, #222);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+#p-card5{
+    width: 402px;
+    color: var(--paragraph, #666);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#p-card6{
+    width: 244px;
+    color: var(--primary-b, #222);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 144.444% */
+}
+
+#p-card7{
+    color: var(--primary-b, #222);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px; /* 144.444% */
+}
+
+#p-copy{
+    color: var(--paragraph, #666);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.8;
+}
+
+#precio-off{
+    color: var(--color-off, #999);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    text-decoration: line-through;
 }
 
 .orange-text {
@@ -168,15 +330,29 @@
 }
 
 #img-1{
-    position: fixed;
+    z-index: 2;
+    position: absolute;
     left: 95vh;
     top: 100px;
     opacity: 0.3;
 }
 
 #img-2{
-    position: static;
+    z-index: 3;
+    position: absolute;
     top: 15vh;
+}
+
+#img-profil{
+    z-index: 2;
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    left: 100vh;
+    top: 418vh;
+    flex-shrink: 0;
+    border-radius: 68px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
 #img-grp1{
@@ -184,6 +360,16 @@
     height: 48px;
     top: 1413px;
     left: 414px;
+}
+
+#img-palm{
+    position: absolute;
+    width: 112.248px;
+    height: 113.124px;
+    flex-shrink: 0;
+    right: 27vh;
+    margin: 10px 1px;
+    
 }
 
 #img-grp2{
@@ -200,15 +386,127 @@
     left: 814px;
 }
 
+#img-card{
+    width: 270px;
+    height: 290px;
+    flex-shrink: 0;
+}
+
+#img-card2{
+    width: 369px;
+    height: 327px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.00), 0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+}
+
+#img-card3{
+    width: 270px;
+    height: 270px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#card1{
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 14px 24px 72px 0px rgba(102, 102, 102, 0.10);
+}
+
+#card2{
+    width: 270px;
+    height: 426px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 2px solid rgba(102, 102, 102, 0.08);
+    background: #FEFCFB;
+}
+
+#card3{
+    width: 370px;
+    height: 447px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 2px solid rgba(102, 102, 102, 0.08);
+    background: var(--white, #FFF);
+}
+
+#card4{
+    padding-right: 50vh;
+    width: 504px;
+    height: 245px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--white, #FFF);
+    z-index: 1;
+    box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.00), 0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+}
+
+#card5{
+    width: 270px;
+    height: 388px;
+    flex-shrink: 0;
+    border: none;
+}
+
+#card-active1{
+    width: 270px;
+    height: 426px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 2px solid rgba(102, 102, 102, 0.08);
+    background: #FEFCFB;
+    border-radius: 10px;
+    background: #FEFCFB;
+    box-shadow: 0px 16px 80px 0px rgba(254, 147, 94, 0.20);
+}
+
+#card-active2{
+    width: 370px;
+    height: 447px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 2px solid rgba(102, 102, 102, 0.08);
+    background: var(--white, #FFF);
+    border-radius: 16px;
+    background: #FEFCFB;
+    box-shadow: 0px 16px 80px 0px rgba(254, 147, 94, 0.20);
+}
+
+#search{
+    width: 674px;
+    height: 68px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--white, #FFF);
+}
+
 #circulo{
-    position: fixed;
-    left: 100vh;
-    top: 400px;
-    
+    z-index: 1;
+    position: absolute;
+    left: 102vh;
+    top: 390px;    
     width: 500px;
-      height: 250px;
-      border: 1px solid #000;
-      background-size: cover;
-      background-color: #3498db;
-      border-radius: 0 0 250px 250px;
+    height: 250px;
+    background-size: cover;
+    background-color: #FA7436;
+    border-radius: 0 0 250px 250px;
+}
+
+.rectangle{
+    width: 1170px;
+    height: 416px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--primary-o, #FA7436);
+}
+
+.line {
+    width: 1170px;
+    height: 1px;
+    border: 1px solid #555;
+    background: rgba(153, 153, 153, 0.56);
 }
